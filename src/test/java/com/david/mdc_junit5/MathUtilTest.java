@@ -114,7 +114,7 @@ public class MathUtilTest {
     void testMdcP8() {
         final int a = 12;
         final int esperado = 12;
-        final int obtido = 12;
+        final int obtido = mdc(a, a);
         assertEquals(esperado, obtido);
     }
 
